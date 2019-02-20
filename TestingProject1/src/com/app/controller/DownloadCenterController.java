@@ -34,6 +34,9 @@ public class DownloadCenterController {
 	public String showDownloadCenterPage(){
 		return "DownloadCenter";
 	}
+	
+	
+	
 	//UploadContent
 	@RequestMapping("/showUploadContent")
 	public String showUploadContentPage(ModelMap map){
