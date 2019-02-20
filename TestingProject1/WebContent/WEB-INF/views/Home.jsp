@@ -12,8 +12,9 @@
 </style> -->
 <title>Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-acale=1">
-<link rel="shortcut icon" type="image/x-icon"
-	href="static/images/favicon.ico" />
+
+<link rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico" />
+
 <link rel="stylesheet" href="static/css/bootstrap.css">
 <link rel="stylesheet" href="static/css/bootstrap.min.css">
 <link rel="stylesheet" href="static/css/main-styles.css">

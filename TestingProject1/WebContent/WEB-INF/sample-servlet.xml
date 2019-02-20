@@ -88,14 +88,14 @@
 				<value>com.app.model.Promote</value>
 				<value>com.app.model.Sections</value>
 				<value>com.app.model.Student</value>
-				<value>com.app.model.Add</value>			
+				<value>com.app.model.Add</value>
 				<value>com.app.model.AssignSubjects</value>
 				<value>com.app.model.ExamList</value>
 				<value>com.app.model.ExamSchedule</value>
 				<value>com.app.model.marksGrade</value>
 				<value>com.app.model.Teachers</value>
 				<value>com.app.model.TimeTable</value>
-				<value>com.app.model.Subjects</value> 
+				<value>com.app.model.Subjects</value>
 				<value>com.app.model.StudentSubjectMarks</value>
 				<value>com.app.model.AssignFee</value>
 				<value>com.app.model.CollectFee</value>
@@ -134,4 +134,4 @@
 		</property>
 	</bean>
 
-</beans>	
+</beans>

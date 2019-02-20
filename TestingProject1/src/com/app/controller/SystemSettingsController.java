@@ -254,7 +254,9 @@ public class SystemSettingsController {
 	}
 
 	@RequestMapping(value="/updateGeneralSetting",method=RequestMethod.POST)
-	public String editSession(@ModelAttribute("generalSetting")GeneralSetting generalSetting){
+	public String editSession(@ModelAttribute("generalSetting")GeneralSetting generalSetting ,ModelMap map,HttpServletRequest req){
+		HttpSession ses=req.getSession();
+		
 		service.updateGeneralSetting(generalSetting);
 		return "redirect:showGeneralSetting";
 	}
