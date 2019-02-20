@@ -21,7 +21,7 @@ import com.app.model.Content;
 import com.app.service.IDownloadCenterService;
 import com.app.service.IStudentService;
 
-
+//Download center controller
 
 @Controller
 public class DownloadCenterController {
@@ -44,7 +44,7 @@ public class DownloadCenterController {
 		return "UploadContent";
 	}
 	
-	//HELLO
+	//HELLO 
 	@RequestMapping(value="/uploadContent",method=RequestMethod.POST)
 	public String saveIncome(
 			@RequestParam("contentTitle")String contentTitle,
